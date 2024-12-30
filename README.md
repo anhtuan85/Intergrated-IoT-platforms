@@ -31,4 +31,4 @@ Change the address inside the code
 
 ### Run the oneM2M and OCF servers on PC Desktop
 You can run them by some Java IDEs like Spring Tool Suite 4
-![](https://github.com/anhtuan85/Intergrated-IoT-platforms/blob/main/DT/img)
+![](https://github.com/anhtuan85/Intergrated-IoT-platforms/blob/main/imgs/Spring-Tool-Suite.jpg)
