@@ -1,0 +1,11 @@
+import com.kmk.app.Condition;
+global com.kmk.app.Action action;
+ 
+rule "rule1"
+    when
+    	condition:Condition()
+    	eval(condition.checkCondition("meta(deviceName)=\"device01\" & data!=\"\""))
+    then
+        action.setUrl("/action?model=local_model20220511000610");
+        action.setDataTemplate("{\"data\":\"{{.data}}\"}");
+end

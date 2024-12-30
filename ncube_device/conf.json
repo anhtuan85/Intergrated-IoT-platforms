@@ -1,0 +1,31 @@
+{
+    "useprotocol": "http",
+    "cse": {
+        "cbhost": "192.168.0.3",
+        "cbport": "7579",
+        "cbname": "Mobius",
+        "cbcseid": "/Mobius",
+        "mqttport": "1883"
+    },
+    "ae": {
+        "aeid": "S",
+        "appid": "0.2.481.1.2",
+        "appname": "device01",
+        "appport": "9727",
+        "bodytype": "xml",
+        "tasport": "3105"
+    },
+    "cnt": [
+        {
+            "parentpath": "/device01",
+            "ctname": "data"
+        }
+    ],
+    "sub": [
+        {
+            "parentpath": "/device01/data",
+            "subname": "sub-data",
+            "nu": "mqtt://AUTOSET"
+        }
+    ]
+}

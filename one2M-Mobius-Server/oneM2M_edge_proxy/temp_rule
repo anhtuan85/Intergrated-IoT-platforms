@@ -1,0 +1,11 @@
+import com.kmk.app.Condition;
+global com.kmk.app.Action action;
+ 
+rule "{{rule_id}}"
+    when
+    	condition:Condition()
+    	eval(condition.checkCondition("{{rule_condition}}"))
+    then
+        action.setUrl("{{rule_url}}");
+        action.setDataTemplate("{{rule_data}}");
+end

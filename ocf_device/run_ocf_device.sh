@@ -1,0 +1,2 @@
+#Run jar file
+java -Djava.library.path=/home/ubuntu/workspace/platform/iotivity222/swig/iotivity-lite-java/libs  -cp '/home/ubuntu/workspace/platform/iotivity222/swig/iotivity-lite-java/libs/iotivity-lite.jar:ocf_device.jar:./lib/*' com.kmk.app.Main
